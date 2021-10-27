@@ -8,8 +8,8 @@
         span 4
       h1 Ambientes educativos innovadores
 
-    img(src='@/assets/curso/t4/f1.jpg' alt='Libro y lápices')
-    .mt_1_5rem.p-5.fblanco.floatRight
+    img(src='@/assets/curso/t4/f1.jpg' alt='Libro y lápices').float-left
+    .mt_1_5rem.p-5.fblanco.floatRight.border24.boxShadow.col-lg-10
       p.mb-0 Los ambientes educativos son una herramienta esencial en la adquisición del conocimiento para el estudiante, es un entorno que le permite enfocar ideas y pensamientos, para poder desarrollar las capacidades y aptitudes individuales y de esta manera generar conocimiento; guiados por sus instructores o docentes que a su vez aportan nuevas estrategias de cambio y de transformación para facilitar el aprendizaje.
     .mb-5.clear
 
@@ -17,7 +17,7 @@
       h2 4.1 Ambientes de aprendizaje multimodales
 
     p.mb-5 Son ambientes de aprendizaje presenciales que utilizan elementos tecnológicos y recursos multimedia apoyados en el uso de las Tecnologías de la Información y la Comunicación (TIC), en este sentido el aprendiz utiliza los estímulos visuales, auditivos, lectoescritura, apoyados no en mayor medida con un estilo kinestésico.
-    .row.align-items-center.justify-content-center.mb-4
+    .row.justify-content-center.mb-4
       .col-lg-3.col-md-6
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -66,16 +66,16 @@
         figure
           img(src='@/assets/curso/t4/f6.png' alt='imagen relacionada')
 
-    p.mb-4 En la siguiente figura se observa el banner utilizado en las páginas del SENA para promocionar este tipo de aprendizaje. 
+    p.mb-4 En la siguiente figura se observa el <em>banner</em> utilizado en las páginas del SENA para promocionar este tipo de aprendizaje. 
 
     .col-lg-7.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
-        span Banner SENA
+        span <em>Banner</em> SENA
       img(src='@/assets/curso/t4/f7.jpg' alt='imagen relacionada')
 
     Separador
     #t_4_3.titulo-segundo
-      h2 4.3 Ambientes híbridos (Blended Learning)
+      h2 4.3 Ambientes híbridos <em>(Blended Learning)</em>
 
     .row.align-items-center.mb-5
       .col-lg-5
@@ -92,7 +92,7 @@
 
     Separador
     #t_4_4.titulo-segundo
-      h2 4.4 Ambientes móviles (Mobile Learning)
+      h2 4.4 Ambientes móviles <em>(Mobile Learning)</em>
 
     .row.align-items-center
       .col-lg-7

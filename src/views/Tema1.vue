@@ -58,10 +58,10 @@
         ol.lista-ol
           li 
             span.text-bold 1.
-            | Ciencias Naturales y educación ambiental.
+            | Ciencias naturales y educación ambiental.
           li 
             span.text-bold 2.
-            | Ciencias Sociales, Historia, Geografía, constitución política y democracia.
+            | Ciencias sociales, historia, geografía, constitución política y democracia.
           li 
             span.text-bold 3.
             | Educación artística.

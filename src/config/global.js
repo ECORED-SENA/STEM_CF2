@@ -92,7 +92,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: '4.	Ambientes educativos innovadores',
+        titulo: 'Ambientes educativos innovadores',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -103,21 +103,21 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
+            numero: '4.2',
             titulo: 'Ambientes de aprendizaje digitales',
-            hash: 't_4_1',
+            hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
+            numero: '4.3',
             titulo: 'Ambientes híbridos <em>(Blended Learning)</em>',
-            hash: 't_4_1',
+            hash: 't_4_3',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
+            numero: '4.4',
             titulo: 'Ambientes móviles <em>(Mobile Learning)</em>',
-            hash: 't_4_1',
+            hash: 't_4_4',
           },
         ],
       },
@@ -156,144 +156,108 @@ export default {
       },
     ],
   },
-  referencias: [
+  complementario: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+      texto:
+        'Cáceres, C. A. (2019). Educación virtual un nuevo desafío. Revista Reto.',
+      tipo: 'PDF',
+      descarga: 'downloads/Educacion_virtual_un_nuevo_desafio.pdf',
     },
     {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+      texto: 'CAST. (2018). Las pautas de UDL.',
+      tipo: 'Página web',
+      link: 'http://udlguidelines.cast.org',
     },
     {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+      texto:
+        'Audiovisuales UNED. (2019). DUA. Diseño universal para el aprendizaje – educación inclusiva y modelo pedagógico',
+      tipo: 'Video YouTube',
+      link: 'https://www.youtube.com/watch?v=u8tK8UkoAmM',
     },
     {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+      texto: '<em>Design Thinking</em>. (2020) Comunidad online de apoyo.',
+      tipo: 'Página web de recursos de apoyo',
+      link: 'https://www.designthinking.services/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Ambiente educativo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es un entorno físico en el cual se encuentran los aprendices, reciben información, interactúan y se comunican entre ellos mediante actividades de aprendizaje.',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Diseño',
+      significado: 'Actividad creativa innovadora que proyecta objetos útiles.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Kinestésico',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'prendizaje basado en el procesamiento de la información asociada con los movimientos y sensaciones del cuerpo. ',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
-    },
-    {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Prototipo',
+      significado: 'Modelo original y primer ensamblaje de un producto.',
     },
   ],
-  complementario: [
+  referencias: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      referencia:
+        'Alba, C. (2012). Aportaciones del diseño universal para el aprendizaje y de los materiales digitales en el logro de la enseñanza accesible. Universidad Complutense de Madrid. ',
     },
     {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Alba, C., Sánchez, J. & Zubillaga, A. (2011). Diseño universal para el aprendizaje (DUA) Pautas para su introducción en el currículo. ',
+      link: 'https://www.educadua.es/doc/dua/dua_pautas_intro_cv.pdf',
     },
     {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+      referencia:
+        'Brown, T. (2008). Design Thinking. Harvard Business Review. ',
+      link: 'https://hbr.org/archive-toc/BR0806',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Cáceres, C. A. (2019). Educación virtual un nuevo desafío. Revista RETO, 6(1), p. 11-19. ',
+      link: 'https://doi.org/10.23850/23338059.1896',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      referencia:
+        'Departamento Nacional de Planeación. (2018). La educación en Colombia. DNP. ',
+      link:
+        'https://www.dnp.gov.co/programas/desarrollo-social/subdireccion-de-educacion/Paginas/subdireccion-de-educacion.aspx',
+    },
+    {
+      referencia:
+        'Espinoza-Poves, J., Miranda-Vílchez, W. & Chafloque-Céspedes, R. (2019). Los estilos de aprendizaje Vark en estudiantes universitarios de las escuelas de negocios. Propósitos y Representaciones, 7(2), p. 384-414. ',
+      link: 'https://dx.doi.org/10.20511/pyr2019.v7n2.254',
+    },
+    {
+      referencia:
+        'Ministerio de Educación Nacional. (s.f.). Sistema educativo colombiano. Mineducación. ',
+      link:
+        'https://www.mineducacion.gov.co/portal/Preescolar-basica-y-media/Sistema-de-educacion-basica-y-media/233839:Sistema-educativo-colombiano',
+    },
+    {
+      referencia:
+        'Osorio, L. (2010). Ambientes híbridos de aprendizaje: elementos para su diseño e implementación. Revista Sistemas de la Asociación Colombiana de Ingenieros de Sistemas (Acis), (117), p. 73.',
+    },
+    {
+      referencia:
+        'Santiago, R. (2015). Mobile learning: nuevas realidades en el aula. Grupo Océano.',
+    },
+    {
+      referencia:
+        'Serrano, M. & Blázquez, P. (2014). Design Thinking. Lidera el presente. Crea el futuro. ESIC Editorial.',
+    },
+    {
+      referencia:
+        'Tobón, S. (2005). Formación basada en competencias. Pensamiento complejo, diseño curricular y didáctica. ECOE Ediciones. ',
+    },
+    {
+      referencia:
+        'Troncoso, K. (2017). Diseño universal para el Aprendizaje (DUA). Una educación inclusiva y para todos. Educación Escuela Viva. ',
+      link:
+        'https://centroescuelaviva.wixsite.com/centroescuelaviva/post/__dua',
     },
   ],
   creditos: {
@@ -311,6 +275,46 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Iván Mauricio González',
+        cargo: 'Instructor',
+        centro:
+          'Centro de Diseño e Innovación Tecnológica Industrial - Regional Risaralda',
+      },
+      {
+        nombre: 'Vilma Lucía Perilla Méndez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julieth Paola Vital López',
+        cargo: 'Correctora de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura – Regional Santander',
+      },
+      {
+        nombre: 'María Cristina Hurtado Zúñiga',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de Diseño Tecnológico Industrial (DCTI) – Regional Valle',
+      },
+      {
+        nombre: 'Zvi Daniel Grosman',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario La Granja – Regional Tolima',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -325,25 +329,54 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Walter Roa Serrano',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Villamizar Lizcano',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

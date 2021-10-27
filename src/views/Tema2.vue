@@ -38,7 +38,7 @@
     ImagenInfograficaB.color-secundario.mb-5
       template(v-slot:imagen)
         img(src='@/assets/curso/t2/f3.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(x="20%" y="20%" tooltip="tooltip de max 35 caracteres")
+      .row.align-items-center.fcs.justify-content-center(x="39.5%" y="34.2%" tooltip="tooltip de max 35 caracteres")
         .col-lg-6.texto-blanco
           h4 Redes de conocimiento
           p El <b>qué</b> del aprendizaje. 
@@ -48,7 +48,7 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/t2/f4.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(x="20%" y="20%" tooltip="tooltip de max 35 caracteres")
+      .row.align-items-center.fcs.justify-content-center(x="32.5%" y="47.3%" tooltip="tooltip de max 35 caracteres")
         .col-lg-6.texto-blanco
           h4 Redes estratégicas
           p El <b>cómo</b> del aprendizaje.
@@ -58,7 +58,7 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/t2/f5.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(x="20%" y="20%" tooltip="tooltip de max 35 caracteres")
+      .row.align-items-center.fcs.justify-content-center(x="51%" y="75.5%" tooltip="tooltip de max 35 caracteres")
         .col-lg-6.texto-blanco
           h4 Redes afectivas
           p El porqué del aprendizaje 
@@ -99,9 +99,9 @@
 
       .col-lg-10.mx-auto.bg2.mb-5
         .row.justify-content-center.ofVisible
-          .col-lg-6.col-md-4.fcs.border134.desfaseTL
+          .col-lg-6.col-md-4.fcs.border134.desfaseTL.p-5
             p.text-center <i class="fas fa-quote-left cac text-big"></i>
-            p.texto-blanco.text-center el CAST desarrolló el marco de implementación del DUA estructurado en tres principios básicos, cada uno de los cuales se desarrolla a través de tres pautas de aplicación y de varias claves o puntos de verificación. Cada principio se corresponde con una de las tres redes cerebrales implicadas en el aprendizaje e indican que es necesario que los docentes ofrezcan al alumnado un amplio rango de opciones para acceder al aprendizaje.
+            p.texto-blanco.text-center El CAST desarrolló el marco de implementación del DUA estructurado en tres principios básicos, cada uno de los cuales se desarrolla a través de tres pautas de aplicación y de varias claves o puntos de verificación. Cada principio se corresponde con una de las tres redes cerebrales implicadas en el aprendizaje e indican que es necesario que los docentes ofrezcan al alumnado un amplio rango de opciones para acceder al aprendizaje.
             div.floatRight
               h6 <span class='text-white'>Según lo indica Alba (2011) (p.18 -19).</span> <i class="fas fa-square cac ms-4" style='font-size: 2rem; vertical-align:middle;'></i>
           .col-lg-5.p-5
