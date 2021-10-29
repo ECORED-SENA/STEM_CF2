@@ -38,7 +38,7 @@
     ImagenInfograficaB.color-secundario.mb-5
       template(v-slot:imagen)
         img(src='@/assets/curso/t2/f3.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(x="39.5%" y="34.2%" tooltip="tooltip de max 35 caracteres")
+      .row.align-items-center.fcs.justify-content-center(y="39.5%" x="34.3%" tooltip="tooltip de max 35 caracteres")
         .col-lg-6.texto-blanco
           h4 Redes de conocimiento
           p El <b>qué</b> del aprendizaje. 
@@ -48,7 +48,7 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/t2/f4.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(x="32.5%" y="47.3%" tooltip="tooltip de max 35 caracteres")
+      .row.align-items-center.fcs.justify-content-center(y="32.2%" x="47.3%" tooltip="tooltip de max 35 caracteres")
         .col-lg-6.texto-blanco
           h4 Redes estratégicas
           p El <b>cómo</b> del aprendizaje.
@@ -58,7 +58,7 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/t2/f5.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(x="51%" y="75.5%" tooltip="tooltip de max 35 caracteres")
+      .row.align-items-center.fcs.justify-content-center(y="51%" x="75.5%" tooltip="tooltip de max 35 caracteres")
         .col-lg-6.texto-blanco
           h4 Redes afectivas
           p El porqué del aprendizaje 

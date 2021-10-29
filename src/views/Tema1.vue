@@ -51,7 +51,7 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/t1/f4.svg' alt='imagen relacionada')
-      .tarjeta.color-primario.p-4(titulo="Artículo 23")
+      .tarjeta.color-primario.p-4.fcp20(titulo="Artículo 23")
         h4 Áreas obligatorias y fundamentales
         p Para el logro de los objetivos de la educación básica se establecen áreas obligatorias y fundamentales del conocimiento y de la formación, que necesariamente se tendrán que ofrecer de acuerdo con el currículo y el Proyecto Educativo Institucional.
         p Los grupos de áreas obligatorias y fundamentales que comprenderán un mínimo del 80% del plan de estudios, son los siguientes:
@@ -84,7 +84,7 @@
             span.text-bold 9.
             | Tecnología e informática.
         p PARÁGRAFO. La educación religiosa se ofrecerá en todos los establecimientos educativos, observando la garantía constitucional, según la cual en los establecimientos del Estado ninguna persona podrá ser obligada a recibirla.
-      .tarjeta.color-primario.p-4(titulo="Artículo 76")
+      .tarjeta.color-primario.p-4.fcp20(titulo="Artículo 76")
         .row.align-items-center
           .col-lg-8
             h4 Concepto de currículo
@@ -92,7 +92,7 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/t1/f5.svg' alt='imagen relacionada')
-      .tarjeta.color-primario.p-4(titulo="Artículo 77")
+      .tarjeta.color-primario.p-4.fcp20(titulo="Artículo 77")
         .row.align-items-center
           .col-lg-8
             h4 Autonomía escolar
