@@ -23,7 +23,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4/f2.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center(style='background-color: #CEDBEF')
               h4 Visual 
               p Diagramas<br>Gráficas<br>Colores<br>Cuadros<br>Textos escritos
       .col-lg-3.col-md-6
@@ -31,7 +31,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4/f3.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center(style='background-color: #CEDBEF')
               h4 Auditivo 
               p Debates<br>Discusiones<br>Audios<br>Música
       .col-lg-3.col-md-6
@@ -39,7 +39,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4/f4.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center(style='background-color: #CEDBEF')
               h4 Lectoescritor
               p Libros - textos<br>Lecturas<br>Toma de notas<br>Ensayos<br>Bibliografía 
       .col-lg-3.col-md-6
@@ -47,7 +47,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4/f5.svg')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center(style='background-color: #CEDBEF')
               h4 Kinestésico 
               p Ejemplos de vida<br>Demostraciones<br>Actividad física<br>Construcciones<br>Juego de roles
     figcaption Fuente: Espinoza-Poves et al. 2019
@@ -82,7 +82,7 @@
         img(src='@/assets/curso/t4/f8.png' alt='imagen relacionada')
       .col-lg-7
         p Este tipo de ambiente es la combinación de dos tipos de educación, presencial y virtual, en la que los aprendices se reúnen en el aula, cumpliendo un horario para desarrollar actividades de la modalidad, adicionalmente incluyen actividades virtuales que se realizarán de manera asincrónica o sincrónica, permitiendo la flexibilidad en el aprendizaje. 
-        p Según Osorio (2010) “la expansión del ambiente del aprendizaje, compuesto por actividades educativas se desarrolla en situaciones presenciales, virtuales y autónomas, que se articulan estratégicamente buscando el enriquecimiento del proceso educativo” (p.73) tal como se observa en la siguiente figura:
+        p Según Osorio (2010) <span class="fgc">“la expansión del ambiente del aprendizaje, compuesto por actividades educativas se desarrolla en situaciones presenciales, virtuales y autónomas, que se articulan estratégicamente buscando el enriquecimiento del proceso educativo”</span> (p.73) tal como se observa en la siguiente figura:
         
     .col-lg-5.mx-auto.mb-5
       .titulo-sexto.color-acento-contenido
