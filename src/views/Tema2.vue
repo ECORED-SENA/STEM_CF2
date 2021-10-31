@@ -8,9 +8,11 @@
         span 2
       h1 Diseño universal para el aprendizaje
 
-    img(src='@/assets/curso/t2/f1.jpg' alt='Jóvenes en clase').float-left
-    .col-lg-10.boxShadow.border24.mt_1_5rem.p-5.fblanco.floatRight
-      p.mb-0 La inclusión en la educación es uno de los puntos de vista en los que a nivel nacional e internacional se hace énfasis cuando se trata de mejorar los currículos académicos para llegar a una población diversa, en aspectos como el cultural, social y laboral. Desde las distintas instituciones del sistema se trabaja en la forma de mejorar o rediseñar los procesos para transformar la metodología de enseñanza de la educación actual, replanteando cómo llegar a todos los habitantes de las distintas poblaciones y con diversas características para hacerlos partícipes de un modelo de educación sin discriminación o exclusiones, generando como resultado la educación inclusiva.
+    .row.justify-content-center
+      .col-lg-12
+        img(src='@/assets/curso/t2/f1.jpg' alt='Jóvenes en clase')
+      .col-lg-10.boxShadow.border24.mt_1_5rem.p-5.fblanco
+        p.mb-0 La inclusión en la educación es uno de los puntos de vista en los que a nivel nacional e internacional se hace énfasis cuando se trata de mejorar los currículos académicos para llegar a una población diversa, en aspectos como el cultural, social y laboral. Desde las distintas instituciones del sistema se trabaja en la forma de mejorar o rediseñar los procesos para transformar la metodología de enseñanza de la educación actual, replanteando cómo llegar a todos los habitantes de las distintas poblaciones y con diversas características para hacerlos partícipes de un modelo de educación sin discriminación o exclusiones, generando como resultado la educación inclusiva.
     .mb-5.clear
 
     #t_2_1.titulo-segundo

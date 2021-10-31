@@ -7,10 +7,12 @@
       .titulo-principal__numero
         span 1
       h1 Sistema educativo colombiano
-
-    img(src='@/assets/curso/t1/f1.jpg' alt='Pupitre escolar').float-left
-    .mt_1_5rem.p-5.fblanco.floatRight.col-lg-10.mx-auto.border24.boxShadow(style='right:3rem')
-      p.mb-0 Un sistema educativo recopila varios factores como la cultura, la historia y la política de una sociedad, con el fin de diseñar la estructura general por la cual se organiza la enseñanza del país, este busca ofrecer a los integrantes de la sociedad una herramienta indispensable para el desarrollo de sus competencias de forma que se prepare al individuo para su desarrollo personal, intelectual y laboral, siendo esta última una de las más importantes para su desempeño en la sociedad, con la finalidad de entregar un ciudadano competente al mercado laboral. 
+    .row.justify-content-center
+      .col-lg-12
+        img(src='@/assets/curso/t1/f1.jpg' alt='Pupitre escolar').float-left
+      .col-lg-10
+        .mt_1_5rem.p-5.fblanco.border24.boxShadow
+          p.mb-0 Un sistema educativo recopila varios factores como la cultura, la historia y la política de una sociedad, con el fin de diseñar la estructura general por la cual se organiza la enseñanza del país, este busca ofrecer a los integrantes de la sociedad una herramienta indispensable para el desarrollo de sus competencias de forma que se prepare al individuo para su desarrollo personal, intelectual y laboral, siendo esta última una de las más importantes para su desempeño en la sociedad, con la finalidad de entregar un ciudadano competente al mercado laboral. 
     .mb-5.clear
 
     #t_1_1.titulo-segundo

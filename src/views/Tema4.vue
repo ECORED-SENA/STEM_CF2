@@ -8,9 +8,11 @@
         span 4
       h1 Ambientes educativos innovadores
 
-    img(src='@/assets/curso/t4/f1.jpg' alt='Libro y lápices').float-left
-    .mt_1_5rem.p-5.fblanco.floatRight.border24.boxShadow.col-lg-10
-      p.mb-0 Los ambientes educativos son una herramienta esencial en la adquisición del conocimiento para el estudiante, es un entorno que le permite enfocar ideas y pensamientos, para poder desarrollar las capacidades y aptitudes individuales y de esta manera generar conocimiento; guiados por sus instructores o docentes que a su vez aportan nuevas estrategias de cambio y de transformación para facilitar el aprendizaje.
+    .row.justify-content-center
+      .col-lg-12
+        img(src='@/assets/curso/t4/f1.jpg' alt='Libro y lápices').float-left
+      .mt_1_5rem.p-5.fblanco.floatRight.border24.boxShadow.col-lg-10
+        p.mb-0 Los ambientes educativos son una herramienta esencial en la adquisición del conocimiento para el estudiante, es un entorno que le permite enfocar ideas y pensamientos, para poder desarrollar las capacidades y aptitudes individuales y de esta manera generar conocimiento; guiados por sus instructores o docentes que a su vez aportan nuevas estrategias de cambio y de transformación para facilitar el aprendizaje.
     .mb-5.clear
 
     #t_4_1.titulo-segundo
@@ -18,7 +20,7 @@
 
     p.mb-5 Son ambientes de aprendizaje presenciales que utilizan elementos tecnológicos y recursos multimedia apoyados en el uso de las Tecnologías de la Información y la Comunicación (TIC), en este sentido el aprendiz utiliza los estímulos visuales, auditivos, lectoescritura, apoyados no en mayor medida con un estilo kinestésico.
     .row.justify-content-center.mb-4
-      .col-lg-3.col-md-6
+      .col-lg-3.col-md-4.col-sm-6.col-8.mb-4
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -26,7 +28,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center(style='background-color: #CEDBEF')
               h4 Visual 
               p Diagramas<br>Gráficas<br>Colores<br>Cuadros<br>Textos escritos
-      .col-lg-3.col-md-6
+      .col-lg-3.col-md-4.col-sm-6.col-8.mb-4
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -34,7 +36,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center(style='background-color: #CEDBEF')
               h4 Auditivo 
               p Debates<br>Discusiones<br>Audios<br>Música
-      .col-lg-3.col-md-6
+      .col-lg-3.col-md-4.col-sm-6.col-8.mb-4
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -42,7 +44,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center(style='background-color: #CEDBEF')
               h4 Lectoescritor
               p Libros - textos<br>Lecturas<br>Toma de notas<br>Ensayos<br>Bibliografía 
-      .col-lg-3.col-md-6
+      .col-lg-3.col-md-4.col-sm-6.col-8.mb-4
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -85,9 +87,7 @@
         p Según Osorio (2010) <span class="fgc">“la expansión del ambiente del aprendizaje, compuesto por actividades educativas se desarrolla en situaciones presenciales, virtuales y autónomas, que se articulan estratégicamente buscando el enriquecimiento del proceso educativo”</span> (p.73) tal como se observa en la siguiente figura:
         
     .col-lg-5.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido
-        span Ambiente de aprendizaje
-      img(src='@/assets/curso/t4/f9.svg' alt='imagen relacionada')
+      img(src='@/assets/curso/t4/f9.svg' alt='imagen relacionada').mb-4
       figcaption Nota. Tomado de Osorio (2010).
 
     Separador

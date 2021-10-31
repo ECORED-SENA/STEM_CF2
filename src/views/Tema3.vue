@@ -11,7 +11,8 @@
     .row.align-items-center.mb-5
       .col-lg-7
         p El pensamiento de diseño o design thinking es una de las estrategias o métodos de innovación que utilizan hoy en día diferentes empresas públicas y privadas, con el fin de crear soluciones diferenciadoras a los problemas y  satisfacer las necesidades de los clientes, ofreciendo servicios y productos mejorados o idealizando proyectos nuevos de forma que el negocio permanece en constante evolución. 
-        p Según Tobón (2005) a nivel educativo el pensamiento de diseño es utilizado en muchas instituciones como herramienta motivadora, que impulsa al estudiante a desarrollar un pensamiento innovador y creativo mediante la realización de proyectos que muestren las distintas competencias que se buscan desarrollar y potenciar en los futuros profesionales egresados. 
+        p
+          span.fgc Según Tobón (2005) a nivel educativo el pensamiento de diseño es utilizado en muchas instituciones como herramienta motivadora, que impulsa al estudiante a desarrollar un pensamiento innovador y creativo mediante la realización de proyectos que muestren las distintas competencias que se buscan desarrollar y potenciar en los futuros profesionales egresados. 
         p En el sector educativo se implementa con el fin de motivar en los aprendices un pensamiento innovador que les ayude en su futuro profesional, ya que favorece y promueve la empatía, la intuición, la creatividad y la generación de ideas novedosas. Existen prácticas docentes que estimulan una mayor participación de los estudiantes, dando lugar a un trabajo motivador que desarrolla el pensamiento creativo e innovador, que potencia su autonomía y facilita el aprendizaje de competencias transversales y profesionales. 
       .col-lg-5
         figure
@@ -25,7 +26,7 @@
         .col-lg-3.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/t3/f2.png' alt='imagen relacionada')
-        .col-lg-6
+        .col-lg-9
           .bloque-texto-a__texto.p-4
             p.mb-0 Se relaciona con la búsqueda de soluciones a distintos problemas en los diferentes aspectos que afectan al ser humano, aportando ideas que desarrollen y generen alternativas viables y ganancias económicas en una empresa, todo esto se consigue mediante un proceso o fases hasta que se obtiene una solución óptima para satisfacer una necesidad. 
 
@@ -82,28 +83,28 @@
     .titulo-sexto.color-acento-contenido
       span Objetivos de cada fase
     
-    .row.align-items-center
-      .col.mmw.text-center.traslapeInt
+    .row.justify-content-center
+      .col.mmw.text-center.traslapeInt.bg3(style='z-index:5')
         figure.mb-4
           img(src='@/assets/curso/t3/f8.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Empatizar
         p Entender la realidad de los usuarios
-      .col.mmw.text-center.traslapeInt
+      .col.mmw.text-center.traslapeInt.bg3(style='z-index:4')
         figure.mb-4
           img(src='@/assets/curso/t3/f9.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Definir
         p Identificar áreas de oportunidad
-      .col.mmw.text-center.traslapeInt
+      .col.mmw.text-center.traslapeInt.bg3(style='z-index:3')
         figure.mb-4
           img(src='@/assets/curso/t3/f10.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Idear
         p Crear y combinar ideas
-      .col.mmw.text-center.traslapeInt
+      .col.mmw.text-center.traslapeInt.bg3(style='z-index:2')
         figure.mb-4
           img(src='@/assets/curso/t3/f11.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Prototipar
         p Generar prototipos
-      .col.mmw.text-center.traslapeInt
+      .col.mmw.text-center.traslapeInt.bg3(style='z-index:1')
         figure.mb-4
           img(src='@/assets/curso/t3/f12.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Evaluar
