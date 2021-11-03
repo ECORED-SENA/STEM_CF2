@@ -37,7 +37,7 @@
       .col-lg-6
         p El enfoque DUA fue desarrollado por el Centro de Tecnología Especial Aplicada (CAST) con el propósito de aplicar y desarrollar tecnologías que apoyen el proceso de aprendizaje en personas discapacitadas, mediante el diseño de un currículo en el que se incluya a todos los estudiantes partiendo de la diversidad, de forma que todos participen y aprendan,  es un enfoque flexible desde las necesidades y las capacidades individuales, así mismo, y a partir de las investigaciones sobre el cerebro se identifican tres redes cerebrales que intervienen en el proceso de aprendizaje, teniendo en cuenta la evidencia de la variabilidad interpersonal como se puede ver:
 
-    ImagenInfograficaB.color-secundario.mb-5
+    ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)
         img(src='@/assets/curso/t2/f3.svg', alt='imagen relacionada')
       .row.align-items-center.fcs.justify-content-center(y="39.5%" x="34.3%" tooltip="tooltip de max 35 caracteres")
