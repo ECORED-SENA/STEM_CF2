@@ -31,7 +31,7 @@
               div.floatRight
                 h6 <span class='text-white'>(MEN, s.f.).</span> <i class="fas fa-square cac ms-4" style='font-size: 2rem; vertical-align:middle;'></i>
         .col-lg-5
-          figure
+          figure(data-aos='fade-left')
             img(src='@/assets/curso/t1/f2.png' alt='Niños participando en clase')
       p.mb-5 La educación superior está compuesta por la educación universitaria, la educación técnica y tecnológica, y finalmente, por la educación para el trabajo y el desarrollo humano. Es importante tener en cuenta que las Escuelas Normales Superiores (ENS) son instituciones formadoras de maestros para la formación preescolar y básica, en dos niveles educativos. A continuación, se muestra la clasificación según el DNP.
 
@@ -51,38 +51,38 @@
             p Corresponde al Estado, a la sociedad y a la familia velar por la calidad de la educación y promover el acceso al servicio público educativo, y es responsabilidad de la Nación y de las entidades territoriales, garantizar su cubrimiento.
             p El Estado deberá atender en forma permanente los factores que favorecen la calidad y el mejoramiento de la educación; especialmente velará por la cualificación y formación de los educadores, la promoción docente, los recursos y métodos educativos, la innovación e investigación educativa, la orientación educativa y profesional, la inspección y evaluación del proceso educativo.
           .col-lg-4
-            figure
+            figure(data-aos='fade-left')
               img(src='@/assets/curso/t1/f4.svg' alt='imagen relacionada')
       .tarjeta.color-primario.p-4.fcp20(titulo="Artículo 23")
         h4 Áreas obligatorias y fundamentales
         p Para el logro de los objetivos de la educación básica se establecen áreas obligatorias y fundamentales del conocimiento y de la formación, que necesariamente se tendrán que ofrecer de acuerdo con el currículo y el Proyecto Educativo Institucional.
         p Los grupos de áreas obligatorias y fundamentales que comprenderán un mínimo del 80% del plan de estudios, son los siguientes:
         ol.lista-ol
-          li 
+          li(data-aos='fade-right')
             span.text-bold 1.
             | Ciencias naturales y educación ambiental.
-          li 
+          li(data-aos='fade-right')
             span.text-bold 2.
             | Ciencias sociales, historia, geografía, constitución política y democracia.
-          li 
+          li(data-aos='fade-right')
             span.text-bold 3.
             | Educación artística.
-          li 
+          li(data-aos='fade-right')
             span.text-bold 4.
             | Educación ética y en valores humanos.
-          li 
+          li(data-aos='fade-right')
             span.text-bold 5.
             | Educación física, recreación y deportes.
-          li 
+          li(data-aos='fade-right')
             span.text-bold 6.
             | Educación religiosa.
-          li 
+          li(data-aos='fade-right')
             span.text-bold 7.
             | Humanidades, lengua castellana e idiomas extranjeros.
-          li 
+          li(data-aos='fade-right')
             span.text-bold 8.
             | Matemáticas.
-          li 
+          li(data-aos='fade-right')
             span.text-bold 9.
             | Tecnología e informática.
         p PARÁGRAFO. La educación religiosa se ofrecerá en todos los establecimientos educativos, observando la garantía constitucional, según la cual en los establecimientos del Estado ninguna persona podrá ser obligada a recibirla.
@@ -92,7 +92,7 @@
             h4 Concepto de currículo
             p Currículo es el conjunto de criterios, planes de estudio, programas, metodologías y procesos que contribuyen a la formación integral y a la construcción de la identidad cultural nacional, regional y local, incluyendo también los recursos humanos, académicos y físicos para poner en práctica las políticas y llevar a cabo el proyecto educativo institucional.
           .col-lg-4
-            figure
+            figure(data-aos='fade-left')
               img(src='@/assets/curso/t1/f5.svg' alt='imagen relacionada')
       .tarjeta.color-primario.p-4.fcp20(titulo="Artículo 77")
         .row.align-items-center
@@ -100,7 +100,7 @@
             h4 Autonomía escolar
             p Dentro de los límites fijados por la presente ley y el proyecto educativo institucional, las instituciones de educación formal gozan de autonomía para organizar las áreas fundamentales de conocimientos definidas para cada nivel, introducir asignaturas optativas dentro de las áreas establecidas en la ley, adaptar algunas áreas a las necesidades y características regionales, adoptar métodos de enseñanza y organizar actividades formativas, culturales y deportivas, dentro de los lineamientos que establezca el Ministerio de Educación Nacional.
           .col-lg-4
-            figure
+            figure(data-aos='fade-left')
               img(src='@/assets/curso/t1/f6.svg' alt='imagen relacionada')
 
 </template>

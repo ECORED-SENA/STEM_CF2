@@ -20,19 +20,19 @@
     
     p.mb-5 El concepto original se tomó de la arquitectura y se adaptó a la educación como medio para incluir a más actores en este formato:
     .row.justify-content-center.mb-5
-      .col-lg-5.col-md-4.fcs.border134.p-5.mx-2
+      .col-lg-5.col-md-4.fcs.border134.p-5.mx-2(data-aos='fade-right')
         p.text-center <i class="fas fa-quote-left cac text-big"></i>
         p.texto-blanco.text-center El Diseño Universal para el Aprendizaje (DUA) no es un concepto original del ámbito educativo, sino que surgió en el campo de la arquitectura en la década de 1970 en Estados Unidos. Fue Ron Mace, fundador del Centro para el Diseño Universal (CUD), quien lo usó por primera vez, definiéndolo como el diseño de productos y entornos que cualquier persona pueda utilizar, en la mayor medida posible, sin necesidad de una adaptación posterior destinada a un público específico.
         div.floatRight
           h6 <span class='text-white'>(CUD, 1997).</span> <i class="fas fa-square cac ms-4" style='font-size: 2rem; vertical-align:middle;'></i>
-      .col-lg-5.col-md-4.fcs.border234.p-5.mx-2
+      .col-lg-5.col-md-4.fcs.border234.p-5.mx-2(data-aos='fade-left')
         p.text-center <i class="fas fa-quote-left cac text-big"></i>
         p.texto-blanco.text-center El concepto del DUA recogía las ideas esenciales del movimiento arquitectónico en auge por aquella época en EE. UU., cuyo objetivo principal era diseñar y construir edificios y espacios públicos pensados desde el principio para atender la variedad de necesidades de acceso, comunicación y uso de los potenciales usuarios.
         div.floatRight
           h6 <span class='text-white'>(Alba et al., 2011).</span> <i class="fas fa-square cac ms-4" style='font-size: 2rem; vertical-align:middle;'></i>
 
     .row.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos='fade-right')
         img(src='@/assets/curso/t2/f2.png' alt='Niños en clase')
       .col-lg-6
         p El enfoque DUA fue desarrollado por el Centro de Tecnología Especial Aplicada (CAST) con el propósito de aplicar y desarrollar tecnologías que apoyen el proceso de aprendizaje en personas discapacitadas, mediante el diseño de un currículo en el que se incluya a todos los estudiantes partiendo de la diversidad, de forma que todos participen y aprendan,  es un enfoque flexible desde las necesidades y las capacidades individuales, así mismo, y a partir de las investigaciones sobre el cerebro se identifican tres redes cerebrales que intervienen en el proceso de aprendizaje, teniendo en cuenta la evidencia de la variabilidad interpersonal como se puede ver:
@@ -40,36 +40,39 @@
     ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)
         img(src='@/assets/curso/t2/f3.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(y="39.5%" x="34.3%" tooltip="tooltip de max 35 caracteres")
-        .col-lg-6.texto-blanco
-          h4 Redes de conocimiento
-          p El <b>qué</b> del aprendizaje. 
-          p Especializadas en percibir información y asignarle significado.
-          p En la práctica estas redes permiten  reconocer letras, números, símbolos, palabras y objetos, además de otros patrones más complejos como el estilo literario de un escritor y conceptos abstractos como la libertad.
-          p Adaptado de: Rose & Meyer, 2002; citado por Alba, 2012
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/t2/f4.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(y="32.2%" x="47.3%" tooltip="tooltip de max 35 caracteres")
-        .col-lg-6.texto-blanco
-          h4 Redes estratégicas
-          p El <b>cómo</b> del aprendizaje.
-          p Especializadas en planificar, ejecutar y monitorizar las tareas motrices y mentales. 
-          p En la práctica estas redes permiten a las personas, desde sacar un libro de una mochila hasta diseñar una estructura y la escritura de un comentario de texto.
-          p Adaptado de: Rose & Meyer, 2002; citado por Alba, 2012
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/t2/f5.svg', alt='imagen relacionada')
-      .row.align-items-center.fcs.justify-content-center(y="51%" x="75.5%" tooltip="tooltip de max 35 caracteres")
-        .col-lg-6.texto-blanco
-          h4 Redes afectivas
-          p El porqué del aprendizaje 
-          p Especializadas en asignar significados emocionales a las tareas. Están relacionadas con  la motivación y la implicación en el propio aprendizaje. 
-          p En la práctica estas redes están influidas por los intereses de las personas, el estado de ánimo o las experiencias previas.
-          p Adaptado de: Rose & Meyer, 2002; citado por Alba, 2012
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/t2/f6.svg', alt='imagen relacionada')
+      .fcs.justify-content-center(y="39.5%" x="34.3%" tooltip="Redes de conocimiento")
+        .row.align-items-center.justify-content-around(style='min-height:600px')
+          .col-lg-6.texto-blanco
+            h4 Redes de conocimiento
+            p El <b>qué</b> del aprendizaje. 
+            p Especializadas en percibir información y asignarle significado.
+            p En la práctica estas redes permiten  reconocer letras, números, símbolos, palabras y objetos, además de otros patrones más complejos como el estilo literario de un escritor y conceptos abstractos como la libertad.
+            p Adaptado de: Rose & Meyer, 2002; citado por Alba, 2012
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/t2/f4.svg', alt='imagen relacionada')
+      .fcs.justify-content-center(y="32.2%" x="47.3%" tooltip="Redes estratégicas")
+        .row.align-items-center.justify-content-around(style='min-height:600px')
+          .col-lg-6.texto-blanco
+            h4 Redes estratégicas
+            p El <b>cómo</b> del aprendizaje.
+            p Especializadas en planificar, ejecutar y monitorizar las tareas motrices y mentales. 
+            p En la práctica estas redes permiten a las personas, desde sacar un libro de una mochila hasta diseñar una estructura y la escritura de un comentario de texto.
+            p Adaptado de: Rose & Meyer, 2002; citado por Alba, 2012
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/t2/f5.svg', alt='imagen relacionada')
+      .fcs.justify-content-center(y="51%" x="75.5%" tooltip="Redes afectivas")
+        .row.align-items-center.justify-content-around(style='min-height:600px')
+          .col-lg-6.texto-blanco
+            h4 Redes afectivas
+            p El porqué del aprendizaje 
+            p Especializadas en asignar significados emocionales a las tareas. Están relacionadas con  la motivación y la implicación en el propio aprendizaje. 
+            p En la práctica estas redes están influidas por los intereses de las personas, el estado de ánimo o las experiencias previas.
+            p Adaptado de: Rose & Meyer, 2002; citado por Alba, 2012
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/t2/f6.svg', alt='imagen relacionada')
 
     Separador
     #t_2_2.titulo-segundo
@@ -83,7 +86,7 @@
           .bloque-texto-a__texto.p-4
             p.mb-0 “Un enfoque basado en la investigación para el diseño del currículo -es decir, objetivos educativos, métodos, materiales y evaluación- que permite a todas las personas desarrollar conocimientos, habilidades y motivación e implicación con el aprendizaje” (p. 9).
         .col-lg-3.mb-4.mb-lg-0
-          figure
+          figure(data-aos='fade-left')
             img(src='@/assets/curso/t2/f7.svg' alt='imagen relacionada')
 
     Separador
@@ -92,7 +95,7 @@
 
     .row.align-items-center.mb-5
       .col-lg-5
-        figure
+        figure(data-aos='fade-right')
           img(src='@/assets/curso/t2/f8.png' alt='imagen relacionada')
       .col-lg-7
         p La motivación es uno de los puntos de partida esenciales al momento de impartir formación, mediante la aplicación de distintas técnicas de enseñanza aprendizaje se logra mantener atraído al estudiante sobre un tema específico, además se requiere de planteamientos, de acciones o actividades que permitan mantener la concentración del estudiante en su entorno educativo, de forma que el proceso de aprendizaje se dé de forma sutil y amena, mediante acciones en las que el estudiante interactúa consigo mismo y con el proceso de aprendizaje.  
@@ -107,26 +110,26 @@
             div.floatRight
               h6 <span class='text-white'>Según lo indica Alba (2011) (p.18 -19).</span> <i class="fas fa-square cac ms-4" style='font-size: 2rem; vertical-align:middle;'></i>
           .col-lg-5.p-5
-            figure
+            figure(data-aos='fade-left')
               img(src='@/assets/curso/t2/f9.svg' alt='imagen relacionada')
 
     p.mb-4 Dichos principios son:
     .row.justify-content-center.mb-5
       .col-lg-4.ms-auto.me-0(style='background-color:#BED0ED')
-        .p-4
+        .p-4(data-aos='flip-left')
           img(src='@/assets/curso/t2/f10.svg' alt='icono relacionado').w73px.mb-4
           h4 Principio I.
           h5 Proporcionar múltiples formas de representación
           p Se fundamenta en las diferencias que tienen los estudiantes en la forma de comprensión y percepción de la información. Los estudiantes con discapacidades requieren formas diferentes de presentarle la información para acceder a los contenidos, de acuerdo con sus patrones individuales. Es necesario proporcionar variedad de opciones de acceso, para que el alumno utilice las que se adaptan y responden a sus capacidades. 
       .col-lg-4.mx-0(style='background-color:#CEDBEF')
-        .p-4
-          img(src='@/assets/curso/t2/f10.svg' alt='icono relacionado').w73px.mb-4
+        .p-4(data-aos='flip-right')
+          img(src='@/assets/curso/t2/f10-2.svg' alt='icono relacionado').w73px.mb-4
           h4 Principio II.
           h5 Proporcionar múltiples medios de acción y expresión
           p Se relaciona con la forma de interacción que tiene el estudiante con la información, sus conocimientos y la forma de expresar el aprendizaje obtenido, (el cómo ocurre el aprendizaje), para ello es necesario que existan opciones para que cada alumno pueda aprender y expresar su aprendizaje.
       .col-lg-4.me-auto.ms-0(style='background-color:#BED0ED')
-        .p-4
-          img(src='@/assets/curso/t2/f10.svg' alt='icono relacionado').w73px.mb-4
+        .p-4(data-aos='flip-left')
+          img(src='@/assets/curso/t2/f10-3.svg' alt='icono relacionado').w73px.mb-4
           h4 Principio III. 
           h5 Proporcionar múltiples formas de implicación
           p Este principio se basa en la activación de los aspectos afectivos a partir de la existencia de una red cerebral que interviene en el aprendizaje y explica el porqué de este. También considera la motivación como un factor que activa el aprendizaje en la persona, de forma que se debe proporcionar opciones para implicarse en el aprendizaje, de acuerdo con las capacidades y preferencias.

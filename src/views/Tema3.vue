@@ -15,7 +15,7 @@
           span.fgc Según Tobón (2005) a nivel educativo el pensamiento de diseño es utilizado en muchas instituciones como herramienta motivadora, que impulsa al estudiante a desarrollar un pensamiento innovador y creativo mediante la realización de proyectos que muestren las distintas competencias que se buscan desarrollar y potenciar en los futuros profesionales egresados. 
         p En el sector educativo se implementa con el fin de motivar en los aprendices un pensamiento innovador que les ayude en su futuro profesional, ya que favorece y promueve la empatía, la intuición, la creatividad y la generación de ideas novedosas. Existen prácticas docentes que estimulan una mayor participación de los estudiantes, dando lugar a un trabajo motivador que desarrolla el pensamiento creativo e innovador, que potencia su autonomía y facilita el aprendizaje de competencias transversales y profesionales. 
       .col-lg-5
-        figure
+        figure(data-aos='fade-left')
           img(src='@/assets/curso/t3/f1.png' alt='imagen relacionada')
 
     #t_3_1.titulo-segundo
@@ -24,7 +24,7 @@
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.mb-4.mb-lg-0
-          figure
+          figure(data-aos='fade-right')
             img(src='@/assets/curso/t3/f2.png' alt='imagen relacionada')
         .col-lg-9
           .bloque-texto-a__texto.p-4
@@ -85,27 +85,27 @@
     
     .row.justify-content-center
       .col.mmw.text-center.traslapeInt.bg3(style='z-index:5')
-        figure.mb-4
+        figure.mb-4(data-aos='flip-up')
           img(src='@/assets/curso/t3/f8.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Empatizar
         p Entender la realidad de los usuarios
       .col.mmw.text-center.traslapeInt.bg3(style='z-index:4')
-        figure.mb-4
+        figure.mb-4(data-aos='flip-up')
           img(src='@/assets/curso/t3/f9.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Definir
         p Identificar áreas de oportunidad
       .col.mmw.text-center.traslapeInt.bg3(style='z-index:3')
-        figure.mb-4
+        figure.mb-4(data-aos='flip-up')
           img(src='@/assets/curso/t3/f10.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Idear
         p Crear y combinar ideas
       .col.mmw.text-center.traslapeInt.bg3(style='z-index:2')
-        figure.mb-4
+        figure.mb-4(data-aos='flip-up')
           img(src='@/assets/curso/t3/f11.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Prototipar
         p Generar prototipos
       .col.mmw.text-center.traslapeInt.bg3(style='z-index:1')
-        figure.mb-4
+        figure.mb-4(data-aos='flip-up')
           img(src='@/assets/curso/t3/f12.svg' alt='imagen relacionada').w73px.mx-auto
         h4 Evaluar
         p Probar los prototipos con usuarios

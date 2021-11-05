@@ -9,7 +9,7 @@
       h1 Ambientes educativos innovadores
 
     .row.justify-content-center
-      .col-lg-12
+      .col-lg-12(data-aos='fade-right')
         img(src='@/assets/curso/t4/f1.jpg' alt='Libro y lápices').float-left
       .mt_1_5rem.p-5.fblanco.floatRight.border24.boxShadow.col-lg-10
         p.mb-0 Los ambientes educativos son una herramienta esencial en la adquisición del conocimiento para el estudiante, es un entorno que le permite enfocar ideas y pensamientos, para poder desarrollar las capacidades y aptitudes individuales y de esta manera generar conocimiento; guiados por sus instructores o docentes que a su vez aportan nuevas estrategias de cambio y de transformación para facilitar el aprendizaje.
@@ -65,7 +65,7 @@
           p De acuerdo con Cáceres. (2019) “la educación virtual a través de la sociedad de la información utiliza recursos combinando la investigación, el conocimiento y la innovación, lo cual permite avanzar en el proceso formativo. La virtualización como nueva tendencia educativa fomenta el aprendizaje centrado en actividades donde el protagonista de la formación es el estudiante, el cual de manera simultánea genera cambio de mentalidad, creatividad, autocontrol y disciplina.
           p El Servicio Nacional de Aprendizaje SENA ofrece formación virtual y a distancia como una modalidad de enseñanza basada en el uso de herramientas tecnológicas, que abren la posibi­lidad a los aprendices de desarrollar sus cono­cimientos en un ambiente flexible en el manejo del tiempo y el espacio.
       .col-lg-5
-        figure
+        figure(data-aos='fade-left')
           img(src='@/assets/curso/t4/f6.png' alt='imagen relacionada')
 
     p.mb-4 En la siguiente figura se observa el <em>banner</em> utilizado en las páginas del SENA para promocionar este tipo de aprendizaje. 
@@ -80,14 +80,14 @@
       h2 4.3 Ambientes híbridos <em>(Blended Learning)</em>
 
     .row.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5(data-aos='fade-right')
         img(src='@/assets/curso/t4/f8.png' alt='imagen relacionada')
       .col-lg-7
         p Este tipo de ambiente es la combinación de dos tipos de educación, presencial y virtual, en la que los aprendices se reúnen en el aula, cumpliendo un horario para desarrollar actividades de la modalidad, adicionalmente incluyen actividades virtuales que se realizarán de manera asincrónica o sincrónica, permitiendo la flexibilidad en el aprendizaje. 
         p Según Osorio (2010) <span class="fgc">“la expansión del ambiente del aprendizaje, compuesto por actividades educativas se desarrolla en situaciones presenciales, virtuales y autónomas, que se articulan estratégicamente buscando el enriquecimiento del proceso educativo”</span> (p.73) tal como se observa en la siguiente figura:
         
     .col-lg-5.mx-auto.mb-5
-      img(src='@/assets/curso/t4/f9.svg' alt='imagen relacionada').mb-4
+      img(src='@/assets/curso/t4/f9.svg', alt='imagen relacionada', data-aos='flip-left').mb-4
       figcaption Nota. Tomado de Osorio (2010).
 
     Separador
@@ -99,7 +99,7 @@
         .cajon-b.color-secundario.p-4
           p.mb-0 Es un método de enseñanza y aprendizaje práctico, en el que se permite la posibilidad de enseñar y aprender mediante los dispositivos móviles, smartphones, tabletas o equipos electrónicos que cuenten con una conexión a Internet y que soportan las distintas plataformas de aprendizaje. 
         p.px-4 En la práctica se diseña y entrega al usuario una experiencia para adquirir conocimiento en cualquier momento y lugar. Esto le permite al estudiante acceder a una gran cantidad de información en formatos digitales, teniendo una opción diferente a obtenerlos en forma física, dando la posibilidad de tener un acceso más eficiente a la información.
-      .col-lg-5
+      .col-lg-5(data-aos='fade-left')
         img(src='@/assets/curso/t4/f10.png' alt='imagen relacionada')
   
 </template>
