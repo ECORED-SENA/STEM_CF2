@@ -66,7 +66,7 @@
         .row.align-items-center.justify-content-around(style='min-height:600px')
           .col-lg-6.texto-blanco
             h4 Redes afectivas
-            p El porqué del aprendizaje 
+            p El por qué del aprendizaje 
             p Especializadas en asignar significados emocionales a las tareas. Están relacionadas con  la motivación y la implicación en el propio aprendizaje. 
             p En la práctica estas redes están influidas por los intereses de las personas, el estado de ánimo o las experiencias previas.
             p Adaptado de: Rose & Meyer, 2002; citado por Alba, 2012

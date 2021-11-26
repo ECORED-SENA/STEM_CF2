@@ -98,7 +98,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Ambientes multimodales',
+            titulo: 'Ambientes de aprendizaje multimodales',
             hash: 't_4_1',
           },
           {
@@ -213,7 +213,7 @@ export default {
     {
       referencia:
         'Brown, T. (2008). Design Thinking. Harvard Business Review. ',
-      link: 'https://hbr.org/archive-toc/BR0806',
+      link: 'https://hbr.org/2008/06/design-thinking',
     },
     {
       referencia:
@@ -384,9 +384,14 @@ export default {
     ],
     gestoresRepositorio: [
       {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
